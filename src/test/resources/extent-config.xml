@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<extentreports>
+    <configuration>
+        <!-- Standard Dark -->
+        <theme>standard</theme>
+        <!-- Default to UTF 8 -->
+        <encoding>UTF-8</encoding>
+        <!--Title of the Document-->
+        <documentTitle>Online Automation Cucumber Tests</documentTitle>
+        <reportName>Sagar Test Results</reportName>
+        <reportHeadline>- v1.0.0</reportHeadline>
+        <dateformat>dd-MM-yyyy</dateformat>
+    </configuration>
+</extentreports>
