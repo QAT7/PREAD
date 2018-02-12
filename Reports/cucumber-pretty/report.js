@@ -7,101 +7,246 @@ formatter.feature({
   "keyword": "Feature"
 });
 formatter.before({
-  "duration": 6590061515,
+  "duration": 8165930046,
   "status": "passed"
 });
 formatter.scenario({
-  "line": 4,
-  "name": "Create new account",
+  "line": 14,
+  "name": "Create new account with already used email address",
   "description": "",
-  "id": "as-an-applicant-i-should-be-able-to-create-new-account.;create-new-account",
+  "id": "as-an-applicant-i-should-be-able-to-create-new-account.;create-new-account-with-already-used-email-address",
   "type": "scenario",
   "keyword": "Scenario",
   "tags": [
     {
-      "line": 3,
-      "name": "@wip"
+      "line": 13,
+      "name": "@suite"
     }
   ]
 });
 formatter.step({
-  "line": 5,
+  "line": 15,
   "name": "I go outreach website",
   "keyword": "Given "
 });
 formatter.step({
-  "line": 6,
+  "line": 16,
   "name": "I click on Create Account link",
   "keyword": "And "
 });
 formatter.step({
-  "line": 7,
+  "line": 17,
   "name": "I enter all required field",
   "keyword": "And "
 });
 formatter.step({
-  "line": 8,
+  "line": 18,
   "name": "I click on Create Account button",
   "keyword": "When "
 });
 formatter.step({
-  "line": 9,
-  "name": "I should get successful message \"Almost finished... now check your email. We\u0027ve emailed you a link, which you need to click to activate your account.\"",
+  "line": 19,
+  "name": "I should get message \"You already have an account. Please log in, or click on \u0027Forgotten Password\u0027 to set a new password.\"",
   "keyword": "Then "
-});
-formatter.step({
-  "line": 10,
-  "name": "I should get verification email",
-  "keyword": "And "
 });
 formatter.match({
   "location": "LoginLogout_StepDef.iGoOutreachWebsite()"
 });
 formatter.result({
-  "duration": 1706185242,
+  "duration": 2063402688,
   "status": "passed"
 });
 formatter.match({
   "location": "CreateAccount_StepDef.iClickOnCreateAccountLink()"
 });
 formatter.result({
-  "duration": 693690009,
+  "duration": 609343191,
   "status": "passed"
 });
 formatter.match({
   "location": "CreateAccount_StepDef.iEnterAllRequiredField()"
 });
 formatter.result({
-  "duration": 384210494,
-  "error_message": "org.openqa.selenium.NoSuchWindowException: no such window: target window already closed\nfrom unknown error: web view not found\n  (Session info: chrome\u003d63.0.3239.132)\n  (Driver info: chromedriver\u003d2.32.498550 (9dec58e66c31bcc53a9ce3c7226f0c1c5810906a),platform\u003dWindows NT 10.0.15063 x86_64) (WARNING: The server did not provide any stacktrace information)\nCommand duration or timeout: 16 milliseconds\nBuild info: version: \u00272.44.0\u0027, revision: \u002776d78cf323ce037c5f92db6c1bba601c2ac43ad8\u0027, time: \u00272014-10-23 13:11:40\u0027\nSystem info: host: \u0027cc-syadav-lap\u0027, ip: \u0027129.31.189.162\u0027, os.name: \u0027Windows 10\u0027, os.arch: \u0027amd64\u0027, os.version: \u002710.0\u0027, java.version: \u00271.8.0_144\u0027\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities [{applicationCacheEnabled\u003dfalse, rotatable\u003dfalse, mobileEmulationEnabled\u003dfalse, networkConnectionEnabled\u003dfalse, chrome\u003d{chromedriverVersion\u003d2.32.498550 (9dec58e66c31bcc53a9ce3c7226f0c1c5810906a), userDataDir\u003dC:\\Users\\syadav12\\AppData\\Local\\Temp\\scoped_dir9348_17690}, takesHeapSnapshot\u003dtrue, pageLoadStrategy\u003dnormal, databaseEnabled\u003dfalse, handlesAlerts\u003dtrue, hasTouchScreen\u003dfalse, version\u003d63.0.3239.132, platform\u003dXP, browserConnectionEnabled\u003dfalse, nativeEvents\u003dtrue, acceptSslCerts\u003dtrue, locationContextEnabled\u003dtrue, webStorageEnabled\u003dtrue, browserName\u003dchrome, takesScreenshot\u003dtrue, javascriptEnabled\u003dtrue, cssSelectorsEnabled\u003dtrue, setWindowRect\u003dtrue, unexpectedAlertBehaviour\u003d}]\nSession ID: 07a7d958551d3b2e4764eb414e25d539\r\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\r\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)\r\n\tat sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)\r\n\tat java.lang.reflect.Constructor.newInstance(Constructor.java:423)\r\n\tat org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:204)\r\n\tat org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:156)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:599)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:352)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:449)\r\n\tat org.openqa.selenium.By$ByXPath.findElement(By.java:357)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:344)\r\n\tat org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:59)\r\n\tat org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:37)\r\n\tat com.sun.proxy.$Proxy17.sendKeys(Unknown Source)\r\n\tat pageObjects.CreateAccount.enterRequiredFields(CreateAccount.java:71)\r\n\tat step_definitions.CreateAccount_StepDef.iEnterAllRequiredField(CreateAccount_StepDef.java:31)\r\n\tat ✽.And I enter all required field(features/CreateAccount.feature:7)\r\n",
-  "status": "failed"
+  "duration": 1678503172,
+  "status": "passed"
 });
 formatter.match({
   "location": "CreateAccount_StepDef.iClickOnCreateAccountButton()"
 });
 formatter.result({
-  "status": "skipped"
+  "duration": 2128795811,
+  "status": "passed"
 });
 formatter.match({
   "arguments": [
     {
-      "val": "Almost finished... now check your email. We\u0027ve emailed you a link, which you need to click to activate your account.",
-      "offset": 33
+      "val": "You already have an account. Please log in, or click on \u0027Forgotten Password\u0027 to set a new password.",
+      "offset": 22
     }
   ],
-  "location": "CreateAccount_StepDef.iShouldGetSuccessfulMessage(String)"
+  "location": "CreateAccount_StepDef.iShouldGetMessage(String)"
 });
 formatter.result({
-  "status": "skipped"
-});
-formatter.match({
-  "location": "CreateAccount_StepDef.iShouldGetVerificationEmail()"
-});
-formatter.result({
-  "status": "skipped"
-});
-formatter.after({
-  "duration": 22674278,
+  "duration": 170040269,
   "status": "passed"
 });
+formatter.after({
+  "duration": 148995,
+  "status": "passed"
+});
+formatter.uri("features/CreateNewApplication.feature");
+formatter.feature({
+  "line": 1,
+  "name": "Complete and Submit application forms for different programes",
+  "description": "",
+  "id": "complete-and-submit-application-forms-for-different-programes",
+  "keyword": "Feature"
+});
+formatter.before({
+  "duration": 3868291342,
+  "status": "passed"
+});
+formatter.scenario({
+  "line": 5,
+  "name": "As an application I apply for an Pathway to Medicine outreach programme",
+  "description": "Country as United Kingdom - England\nYear Group as Y1\n1 Parent/Guardian Higher Education as No",
+  "id": "complete-and-submit-application-forms-for-different-programes;as-an-application-i-apply-for-an-pathway-to-medicine-outreach-programme",
+  "type": "scenario",
+  "keyword": "Scenario",
+  "tags": [
+    {
+      "line": 4,
+      "name": "@suite"
+    }
+  ]
+});
+formatter.step({
+  "line": 11,
+  "name": "I go outreach website",
+  "keyword": "Given "
+});
+formatter.step({
+  "line": 12,
+  "name": "I Login",
+  "keyword": "And "
+});
+formatter.step({
+  "line": 13,
+  "name": "I click on New Application Link",
+  "keyword": "And "
+});
+formatter.step({
+  "line": 14,
+  "name": "I select YES for Are you currently studying at school or college in the UK?",
+  "keyword": "And "
+});
+formatter.step({
+  "line": 15,
+  "name": "I select United Kingdom - England as UK School Country",
+  "keyword": "And "
+});
+formatter.step({
+  "line": 16,
+  "name": "I select School from the drop down list",
+  "keyword": "And "
+});
+formatter.step({
+  "line": 17,
+  "name": "I select \"Y1\" answer for Which UK Year Group are you in?",
+  "keyword": "And "
+});
+formatter.step({
+  "line": 18,
+  "name": "I enter all Teacher Details",
+  "keyword": "And "
+});
+formatter.step({
+  "line": 19,
+  "name": "I save \u0026 go to \"Parents/Guardian\" tab",
+  "keyword": "And "
+});
+formatter.step({
+  "line": 20,
+  "name": "I complete Parent/Guardian Form and save it",
+  "keyword": "And "
+});
+formatter.step({
+  "line": 21,
+  "name": "I select \"Pathways to Medicine\" as my course",
+  "keyword": "And "
+});
+formatter.step({
+  "line": 22,
+  "name": "I select start date as \"12/03/2018\"",
+  "keyword": "And "
+});
+formatter.step({
+  "line": 23,
+  "name": "I select strand as \"Design Engineering\"",
+  "keyword": "And "
+});
+formatter.step({
+  "line": 24,
+  "name": "I select FSM as \"No\"",
+  "keyword": "And "
+});
+formatter.step({
+  "line": 25,
+  "name": "I select House hold income as \"0 - 25000\"",
+  "keyword": "And "
+});
+formatter.step({
+  "line": 26,
+  "name": "I select care as \"No\"",
+  "keyword": "And "
+});
+formatter.step({
+  "line": 27,
+  "name": "I select Carer as \"No\"",
+  "keyword": "And "
+});
+formatter.step({
+  "line": 28,
+  "name": "I select parent guardian education as \"Yes\" and save the form",
+  "keyword": "And "
+});
+formatter.step({
+  "line": 29,
+  "name": "I enter my personal statement as \"This is my personal stateme\"",
+  "keyword": "And "
+});
+formatter.step({
+  "line": 30,
+  "name": "I select my Data Policy \u0026 Marketing as \"Email\"",
+  "keyword": "And "
+});
+formatter.step({
+  "line": 31,
+  "name": "I accept terms \u0026 conditions and save the form",
+  "keyword": "And "
+});
+formatter.step({
+  "line": 32,
+  "name": "I click On \"Review",
+  "keyword": "And "
+});
+formatter.step({
+  "line": 33,
+  "name": "I click on \"Submit Application\" buton",
+  "keyword": "When "
+});
+formatter.step({
+  "line": 34,
+  "name": "I should get successful message \"Thank you for submitting your application\"",
+  "keyword": "Then "
+});
+formatter.match({
+  "location": "LoginLogout_StepDef.iGoOutreachWebsite()"
+});
+formatter.result({
+  "duration": 1541094787,
+  "status": "passed"
+});
+formatter.match({
+  "location": "NewApplication_StepDef.iLogin()"
 });

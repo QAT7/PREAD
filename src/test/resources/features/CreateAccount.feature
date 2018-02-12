@@ -10,7 +10,7 @@ Feature: As an applicant I should be able to create new account.
     And I should get verification email
 
 
-  @wip
+  @suite
   Scenario: Create new account with already used email address
     Given I go outreach website
     And I click on Create Account link

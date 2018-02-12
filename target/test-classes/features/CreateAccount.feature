@@ -1,6 +1,6 @@
 Feature: As an applicant I should be able to create new account.
 
-  @wip
+
   Scenario: Create new account
     Given I go outreach website
     And I click on Create Account link
@@ -10,7 +10,7 @@ Feature: As an applicant I should be able to create new account.
     And I should get verification email
 
 
-
+  @suite
   Scenario: Create new account with already used email address
     Given I go outreach website
     And I click on Create Account link

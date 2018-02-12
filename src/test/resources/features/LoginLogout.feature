@@ -1,5 +1,6 @@
 
 Feature: As an applicant when I login with valid credentials. I should be able log out from site
+
   @suite
   Scenario: Login with valid credentials
     Given I go outreach website
