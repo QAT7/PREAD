@@ -7,4 +7,32 @@ Feature: As an applicant when I login with valid credentials. I should be able l
     [32mAnd [0m[32mI enter my password[0m              [90m# LoginLogout_StepDef.iEnterMyPassword()[0m
     [32mWhen [0m[32mI click on Submit[0m               [90m# LoginLogout_StepDef.iClickOnSubmit()[0m
     [32mThen [0m[32mI should get Welcome message[0m    [90m# LoginLogout_StepDef.iShouldGetWelcomeMessage()[0m
-    [32mAnd [0m[32mI should be able to logout[0m       [90m# LoginLogout_StepDef.iShouldBeAbleToLogout()[0m
+    [31mAnd [0m[31mI should be able to logout[0m       [90m# LoginLogout_StepDef.iShouldBeAbleToLogout()[0m
+      [31morg.openqa.selenium.WebDriverException: unknown error: Element is not clickable at point (921, 81)
+        (Session info: chrome=63.0.3239.132)
+        (Driver info: chromedriver=2.32.498550 (9dec58e66c31bcc53a9ce3c7226f0c1c5810906a),platform=Windows NT 10.0.15063 x86_64) (WARNING: The server did not provide any stacktrace information)
+      Command duration or timeout: 47 milliseconds
+      Build info: version: '2.44.0', revision: '76d78cf323ce037c5f92db6c1bba601c2ac43ad8', time: '2014-10-23 13:11:40'
+      System info: host: 'cc-syadav-lap', ip: '129.31.185.223', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_144'
+      Driver info: org.openqa.selenium.chrome.ChromeDriver
+      Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.32.498550 (9dec58e66c31bcc53a9ce3c7226f0c1c5810906a), userDataDir=C:\Users\syadav12\AppData\Local\Temp\scoped_dir10476_15750}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=63.0.3239.132, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=}]
+      Session ID: f10558d3ec63fc8c512b8bf5eae3a1f7
+      	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+      	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+      	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+      	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+      	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:204)
+      	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:156)
+      	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:599)
+      	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:268)
+      	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:79)
+      	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+      	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+      	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+      	at java.lang.reflect.Method.invoke(Method.java:498)
+      	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:50)
+      	at com.sun.proxy.$Proxy17.click(Unknown Source)
+      	at pageObjects.LandingPage.logout(LandingPage.java:63)
+      	at step_definitions.LoginLogout_StepDef.iShouldBeAbleToLogout(LoginLogout_StepDef.java:48)
+      	at ✽.And I should be able to logout(features/LoginLogout.feature:11)
+      [0m
