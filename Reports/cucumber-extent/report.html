@@ -49,7 +49,7 @@
 		<ul id='nav-mobile' class='right hide-on-med-and-down nav-right'>
 			<li>
                 <a href='#!'>
-                    <span class='label suite-start-time blue darken-3'>Feb 9, 2018 12:43:44 PM</span>
+                    <span class='label suite-start-time blue darken-3'>Feb 12, 2018 11:54:12 AM</span>
 				</a>
 			</li>
 			<li>
@@ -167,10 +167,10 @@
 					<canvas id='grandchild-analysis' width='100' height='80'></canvas>
 				</div>
 				<div class='block text-small'>
-					<span class='tooltipped' data-position='top' data-tooltip='33.333%'><span class='strong'>2</span> step(s) passed</span>
+					<span class='tooltipped' data-position='top' data-tooltip='4.167%'><span class='strong'>1</span> step(s) passed</span>
 				</div>
 				<div class='block text-small'>
-					<span class='strong tooltipped' data-position='top' data-tooltip='16.667%'>1</span> step(s) failed, <span class='strong tooltipped' data-position='top' data-tooltip='50%'>3</span> others
+					<span class='strong tooltipped' data-position='top' data-tooltip='4.167%'>1</span> step(s) failed, <span class='strong tooltipped' data-position='top' data-tooltip='91.667%'>22</span> others
 				</div>
 			</div>
 		</div>
@@ -186,8 +186,8 @@
 				
 				<li class='test displayed active has-leaf fail' status='fail' bdd='true' test-id='1'>
 					<div class='test-heading'>
-						<span class='test-name'>As an applicant I should be able to create new account.</span>
-						<span class='test-time'>Feb 9, 2018 12:43:44 PM</span>
+						<span class='test-name'>Complete and Submit application forms for different programes</span>
+						<span class='test-time'>Feb 12, 2018 11:54:12 AM</span>
 						<span class='test-status right fail'>fail</span>
 					</div>
 					<div class='test-content hide'>
@@ -195,10 +195,10 @@
 	<div class='category-list'>
 		<span class='category label white-text'>@wip</span>
 	</div>
-	<span class='duration right label'>0h 0m 9s+598ms</span>
+	<span class='duration right label'>0h 0m 35s+419ms</span>
 	<div class='desc'>
 		<b>Scenario</b>
-		<span class="desc-text">Create new account</span>
+		<span class="desc-text">As an application I apply for an Pathway to Medicine outreach programme</span>
 	</div>
 	<ul class='steps'>
 		<li test-id='3' class='node given pass' status='pass'>
@@ -209,29 +209,21 @@
 				<div class='pre'>passed</div>
 			
 		</li>
-		<li test-id='4' class='node and pass' status='pass'>
+		<li test-id='4' class='node and fail' status='fail'>
 			
 			<b>And</b>
 			
-			<span class="bdd-step-name">And I click on Create Account link</span>
-				<div class='pre'>passed</div>
-			
-		</li>
-		<li test-id='5' class='node and fail' status='fail'>
-			
-			<b>And</b>
-			
-			<span class="bdd-step-name">And I enter all required field</span>
-				<div class='pre'><pre>org.openqa.selenium.NoSuchWindowException: no such window: target window already closed
-from unknown error: web view not found
+			<span class="bdd-step-name">And I Login</span>
+				<div class='pre'><pre>org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":".//input[@id='CollegeCommon_Th_wt11_block_Imperial_Theme_wt15_block_wtMainContent_wtMainContent_wtUsernameInput']"}
   (Session info: chrome=63.0.3239.132)
   (Driver info: chromedriver=2.32.498550 (9dec58e66c31bcc53a9ce3c7226f0c1c5810906a),platform=Windows NT 10.0.15063 x86_64) (WARNING: The server did not provide any stacktrace information)
-Command duration or timeout: 16 milliseconds
+Command duration or timeout: 20.06 seconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
 Build info: version: '2.44.0', revision: '76d78cf323ce037c5f92db6c1bba601c2ac43ad8', time: '2014-10-23 13:11:40'
-System info: host: 'cc-syadav-lap', ip: '129.31.189.162', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_144'
+System info: host: 'cc-syadav-lap', ip: '129.31.184.41', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_144'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.32.498550 (9dec58e66c31bcc53a9ce3c7226f0c1c5810906a), userDataDir=C:\Users\syadav12\AppData\Local\Temp\scoped_dir9348_17690}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=63.0.3239.132, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=}]
-Session ID: 07a7d958551d3b2e4764eb414e25d539
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.32.498550 (9dec58e66c31bcc53a9ce3c7226f0c1c5810906a), userDataDir=C:\Users\syadav12\AppData\Local\Temp\scoped_dir16736_31147}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=63.0.3239.132, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=}]
+Session ID: fd8d1ffeedec85cad0d0e9050636548d
 	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
 	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
@@ -246,25 +238,33 @@ Session ID: 07a7d958551d3b2e4764eb414e25d539
 	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:59)
 	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:37)
 	at com.sun.proxy.$Proxy17.sendKeys(Unknown Source)
-	at pageObjects.CreateAccount.enterRequiredFields(CreateAccount.java:71)
-	at step_definitions.CreateAccount_StepDef.iEnterAllRequiredField(CreateAccount_StepDef.java:31)
-	at ✽.And I enter all required field(features/CreateAccount.feature:7)
+	at pageObjects.LandingPage.successfullLogin(LandingPage.java:63)
+	at step_definitions.NewApplication_StepDef.iLogin(NewApplication_StepDef.java:38)
+	at ✽.And I Login(features/CreateNewApplication.feature:12)
 </pre></div>
 			
 		</li>
-		<li test-id='6' class='node when skip' status='skip'>
+		<li test-id='5' class='node and skip' status='skip'>
 			
-			<b>When</b>
+			<b>And</b>
 			
-			<span class="bdd-step-name">When I click on Create Account button</span>
+			<span class="bdd-step-name">And I click on New Application Link</span>
 				<div class='pre'>skipped</div>
 			
 		</li>
-		<li test-id='7' class='node then skip' status='skip'>
+		<li test-id='6' class='node and skip' status='skip'>
 			
-			<b>Then</b>
+			<b>And</b>
 			
-			<span class="bdd-step-name">Then I should get successful message "Almost finished... now check your email. We've emailed you a link, which you need to click to activate your account."</span>
+			<span class="bdd-step-name">And I select YES for Are you currently studying at school or college in the UK?</span>
+				<div class='pre'>skipped</div>
+			
+		</li>
+		<li test-id='7' class='node and skip' status='skip'>
+			
+			<b>And</b>
+			
+			<span class="bdd-step-name">And I select United Kingdom - England as UK School Country</span>
 				<div class='pre'>skipped</div>
 			
 		</li>
@@ -272,7 +272,151 @@ Session ID: 07a7d958551d3b2e4764eb414e25d539
 			
 			<b>And</b>
 			
-			<span class="bdd-step-name">And I should get verification email</span>
+			<span class="bdd-step-name">And I select School from the drop down list</span>
+				<div class='pre'>skipped</div>
+			
+		</li>
+		<li test-id='9' class='node and skip' status='skip'>
+			
+			<b>And</b>
+			
+			<span class="bdd-step-name">And I select "Y1" answer for Which UK Year Group are you in?</span>
+				<div class='pre'>skipped</div>
+			
+		</li>
+		<li test-id='10' class='node and skip' status='skip'>
+			
+			<b>And</b>
+			
+			<span class="bdd-step-name">And I enter all Teacher Details</span>
+				<div class='pre'>skipped</div>
+			
+		</li>
+		<li test-id='11' class='node and skip' status='skip'>
+			
+			<b>And</b>
+			
+			<span class="bdd-step-name">And I save & go to "Parents/Guardian" tab</span>
+				<div class='pre'>skipped</div>
+			
+		</li>
+		<li test-id='12' class='node and skip' status='skip'>
+			
+			<b>And</b>
+			
+			<span class="bdd-step-name">And I complete Parent/Guardian Form and save it</span>
+				<div class='pre'>skipped</div>
+			
+		</li>
+		<li test-id='13' class='node and skip' status='skip'>
+			
+			<b>And</b>
+			
+			<span class="bdd-step-name">And I select "Pathways to Medicine" as my course</span>
+				<div class='pre'>skipped</div>
+			
+		</li>
+		<li test-id='14' class='node and skip' status='skip'>
+			
+			<b>And</b>
+			
+			<span class="bdd-step-name">And I select start date as "12/03/2018"</span>
+				<div class='pre'>skipped</div>
+			
+		</li>
+		<li test-id='15' class='node and skip' status='skip'>
+			
+			<b>And</b>
+			
+			<span class="bdd-step-name">And I select strand as "Design Engineering"</span>
+				<div class='pre'>skipped</div>
+			
+		</li>
+		<li test-id='16' class='node and skip' status='skip'>
+			
+			<b>And</b>
+			
+			<span class="bdd-step-name">And I select FSM as "No"</span>
+				<div class='pre'>skipped</div>
+			
+		</li>
+		<li test-id='17' class='node and skip' status='skip'>
+			
+			<b>And</b>
+			
+			<span class="bdd-step-name">And I select House hold income as "0 - 25000"</span>
+				<div class='pre'>skipped</div>
+			
+		</li>
+		<li test-id='18' class='node and skip' status='skip'>
+			
+			<b>And</b>
+			
+			<span class="bdd-step-name">And I select care as "No"</span>
+				<div class='pre'>skipped</div>
+			
+		</li>
+		<li test-id='19' class='node and skip' status='skip'>
+			
+			<b>And</b>
+			
+			<span class="bdd-step-name">And I select Carer as "No"</span>
+				<div class='pre'>skipped</div>
+			
+		</li>
+		<li test-id='20' class='node and skip' status='skip'>
+			
+			<b>And</b>
+			
+			<span class="bdd-step-name">And I select parent guardian education as "Yes" and save the form</span>
+				<div class='pre'>skipped</div>
+			
+		</li>
+		<li test-id='21' class='node and skip' status='skip'>
+			
+			<b>And</b>
+			
+			<span class="bdd-step-name">And I enter my personal statement as "This is my personal stateme"</span>
+				<div class='pre'>skipped</div>
+			
+		</li>
+		<li test-id='22' class='node and skip' status='skip'>
+			
+			<b>And</b>
+			
+			<span class="bdd-step-name">And I select my Data Policy & Marketing as "Email"</span>
+				<div class='pre'>skipped</div>
+			
+		</li>
+		<li test-id='23' class='node and skip' status='skip'>
+			
+			<b>And</b>
+			
+			<span class="bdd-step-name">And I accept terms & conditions and save the form</span>
+				<div class='pre'>skipped</div>
+			
+		</li>
+		<li test-id='24' class='node and skip' status='skip'>
+			
+			<b>And</b>
+			
+			<span class="bdd-step-name">And I click On "Review</span>
+				<div class='pre'>skipped</div>
+			
+		</li>
+		<li test-id='25' class='node when skip' status='skip'>
+			
+			<b>When</b>
+			
+			<span class="bdd-step-name">When I click on "Submit Application" buton</span>
+				<div class='pre'>skipped</div>
+			
+		</li>
+		<li test-id='26' class='node then skip' status='skip'>
+			
+			<b>Then</b>
+			
+			<span class="bdd-step-name">Then I should get successful message "Thank you for submitting your application"</span>
 				<div class='pre'>skipped</div>
 			
 		</li>
@@ -355,8 +499,8 @@ Session ID: 07a7d958551d3b2e4764eb414e25d539
 								</thead>
 								<tbody>
 									<tr>
-										<td>Feb 9, 2018 12:43:44 PM</td>
-										<td class='linked' test-id='2'>As an applicant I should be able to create new account..Create new account</td>
+										<td>Feb 12, 2018 11:54:12 AM</td>
+										<td class='linked' test-id='2'>Complete and Submit application forms for different programes.As an application I apply for an Pathway to Medicine outreach programme</td>
 										<td><span class='test-status fail'>fail</span></td>
 									</tr>
 								</tbody>
@@ -403,7 +547,7 @@ Session ID: 07a7d958551d3b2e4764eb414e25d539
 
                         <li class='exception displayed active'>
                             <div class='exception-heading'>
-                                <span class='exception-name'>org.openqa.selenium.NoSuchWindowException</span>
+                                <span class='exception-name'>org.openqa.selenium.NoSuchElementException</span>
                                 <span class='exception-count right'><span class='label red lighten-1 white-text'>1</span></span>
                             </div>
                             <div class='exception-content hide'>
@@ -418,18 +562,18 @@ Session ID: 07a7d958551d3b2e4764eb414e25d539
                                         </thead>
                                         <tbody>
                                                     <tr>
-                                                        <td>Feb 9, 2018 12:43:53 PM</td>
-                                                        <td class='linked' test-id='5'>As an applicant I should be able to create new account..Create new account.And I enter all required field</td>
-                                                        <td><pre><pre>org.openqa.selenium.NoSuchWindowException: no such window: target window already closed
-from unknown error: web view not found
+                                                        <td>Feb 12, 2018 11:54:28 AM</td>
+                                                        <td class='linked' test-id='4'>Complete and Submit application forms for different programes.As an application I apply for an Pathway to Medicine outreach programme.And I Login</td>
+                                                        <td><pre><pre>org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":".//input[@id='CollegeCommon_Th_wt11_block_Imperial_Theme_wt15_block_wtMainContent_wtMainContent_wtUsernameInput']"}
   (Session info: chrome=63.0.3239.132)
   (Driver info: chromedriver=2.32.498550 (9dec58e66c31bcc53a9ce3c7226f0c1c5810906a),platform=Windows NT 10.0.15063 x86_64) (WARNING: The server did not provide any stacktrace information)
-Command duration or timeout: 16 milliseconds
+Command duration or timeout: 20.06 seconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
 Build info: version: '2.44.0', revision: '76d78cf323ce037c5f92db6c1bba601c2ac43ad8', time: '2014-10-23 13:11:40'
-System info: host: 'cc-syadav-lap', ip: '129.31.189.162', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_144'
+System info: host: 'cc-syadav-lap', ip: '129.31.184.41', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_144'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.32.498550 (9dec58e66c31bcc53a9ce3c7226f0c1c5810906a), userDataDir=C:\Users\syadav12\AppData\Local\Temp\scoped_dir9348_17690}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=63.0.3239.132, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=}]
-Session ID: 07a7d958551d3b2e4764eb414e25d539
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.32.498550 (9dec58e66c31bcc53a9ce3c7226f0c1c5810906a), userDataDir=C:\Users\syadav12\AppData\Local\Temp\scoped_dir16736_31147}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=63.0.3239.132, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=}]
+Session ID: fd8d1ffeedec85cad0d0e9050636548d
 	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
 	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
@@ -444,9 +588,9 @@ Session ID: 07a7d958551d3b2e4764eb414e25d539
 	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:59)
 	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:37)
 	at com.sun.proxy.$Proxy17.sendKeys(Unknown Source)
-	at pageObjects.CreateAccount.enterRequiredFields(CreateAccount.java:71)
-	at step_definitions.CreateAccount_StepDef.iEnterAllRequiredField(CreateAccount_StepDef.java:31)
-	at ✽.And I enter all required field(features/CreateAccount.feature:7)
+	at pageObjects.LandingPage.successfullLogin(LandingPage.java:63)
+	at step_definitions.NewApplication_StepDef.iLogin(NewApplication_StepDef.java:38)
+	at ✽.And I Login(features/CreateNewApplication.feature:12)
 </pre></pre></td>
                                                     </tr>
                                         </tbody>
@@ -485,25 +629,25 @@ Session ID: 07a7d958551d3b2e4764eb414e25d539
 			<div class='col s2'>
 				<div class='card-panel r'>
 					Steps
-					<div class='panel-lead'>6</div>
+					<div class='panel-lead'>24</div>
 				</div>
 			</div>
 			<div class='col s2'>
 				<div class='card-panel r'>
 					Start
-					<div class='panel-lead'>Feb 9, 2018 12:43:44 PM</div>
+					<div class='panel-lead'>Feb 12, 2018 11:54:12 AM</div>
 				</div>
 			</div>
 			<div class='col s2'>
 				<div class='card-panel r'>
 			 		End
-			 		<div class='panel-lead'>Feb 9, 2018 12:43:54 PM</div>
+			 		<div class='panel-lead'>Feb 12, 2018 11:54:52 AM</div>
 				</div>
 			</div>
 			<div class='col s2'>
 				<div class='card-panel r'>
 					Time Taken
-					<div class='panel-lead'>10,128ms</div>
+					<div class='panel-lead'>40,209ms</div>
 				</div>
 			</div>
 			<div class='col s4'>
@@ -582,14 +726,14 @@ Session ID: 07a7d958551d3b2e4764eb414e25d539
 				infoChild: 0,
 				exceptionsChild: 1,
 				
-				passGrandChild: 2,
+				passGrandChild: 1,
 				failGrandChild: 1,
 				fatalGrandChild: 0,
 				errorGrandChild: 0,
 				warningGrandChild: 0,
-				skipGrandChild: 3,
+				skipGrandChild: 22,
 				infoGrandChild: 0,
-				exceptionsGrandChild: 4,
+				exceptionsGrandChild: 23,
 			};
 		</script>
 		

@@ -1,7 +1,7 @@
 Feature: Complete and Submit application forms for different programes
 
 
-  @suite
+  @wip
   Scenario: As an application I apply for an Pathway to Medicine outreach programme
   Country as United Kingdom - England
   Year Group as Y1

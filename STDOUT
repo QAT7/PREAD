@@ -1,10 +1,10 @@
-Feature: As an applicant I should be able to create new account.
+Feature: As an applicant when I login with valid credentials. I should be able log out from site
 
   @suite
-  Scenario: Create new account with already used email address                                                                      [90m# features/CreateAccount.feature:14[0m
-    [32mGiven [0m[32mI go outreach website[0m                                                                                                     [90m# LoginLogout_StepDef.iGoOutreachWebsite()[0m
-    [32mAnd [0m[32mI click on Create Account link[0m                                                                                              [90m# CreateAccount_StepDef.iClickOnCreateAccountLink()[0m
-    [32mAnd [0m[32mI enter all required field[0m                                                                                                  [90m# CreateAccount_StepDef.iEnterAllRequiredField()[0m
-    [32mWhen [0m[32mI click on Create Account button[0m                                                                                           [90m# CreateAccount_StepDef.iClickOnCreateAccountButton()[0m
-    [32mThen [0m[32mI should get message "[0m[32m[1mYou already have an account. Please log in, or click on 'Forgotten Password' to set a new password.[0m[32m"[0m [90m# CreateAccount_StepDef.iShouldGetMessage(String)[0m
-Feature: Complete and Submit application forms for different programes
+  Scenario: Login with valid credentials [90m# features/LoginLogout.feature:5[0m
+    [32mGiven [0m[32mI go outreach website[0m          [90m# LoginLogout_StepDef.iGoOutreachWebsite()[0m
+    [32mAnd [0m[32mI enter my username[0m              [90m# LoginLogout_StepDef.iEnterMyUsername()[0m
+    [32mAnd [0m[32mI enter my password[0m              [90m# LoginLogout_StepDef.iEnterMyPassword()[0m
+    [32mWhen [0m[32mI click on Submit[0m               [90m# LoginLogout_StepDef.iClickOnSubmit()[0m
+    [32mThen [0m[32mI should get Welcome message[0m    [90m# LoginLogout_StepDef.iShouldGetWelcomeMessage()[0m
+    [32mAnd [0m[32mI should be able to logout[0m       [90m# LoginLogout_StepDef.iShouldBeAbleToLogout()[0m

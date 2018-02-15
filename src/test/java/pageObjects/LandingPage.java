@@ -4,6 +4,7 @@ import com.google.common.base.Verify;
 import org.junit.Assert;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
+import org.openqa.selenium.interactions.Actions;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 
@@ -13,23 +14,23 @@ public class LandingPage extends BaseClass {
         super(driver);
     }
 
-    @FindBy(xpath = ".//input[@id='CollegeCommon_Th_wt11_block_Imperial_Theme_wt15_block_wtMainContent_wtMainContent_wtUsernameInput']")
+    @FindBy(xpath = ".//*[contains(@id,'UsernameInput') and @placeholder = 'Email']")
     public static WebElement email;
 
-    @FindBy(xpath = ".//input[@id='CollegeCommon_Th_wt11_block_Imperial_Theme_wt15_block_wtMainContent_wtMainContent_wtPasswordInput']")
+    @FindBy(xpath = ".//*[contains(@id,'PasswordInput') and @placeholder = 'Password']")
     public static WebElement password;
 
-    @FindBy(xpath = ".//input[@id='CollegeCommon_Th_wt11_block_Imperial_Theme_wt15_block_wtMainContent_wtMainContent_wt22']")
+    @FindBy(xpath = ".//*[contains(@value,'Sign in') and @type = 'submit']")
     public static WebElement submit;
 
 
     @FindBy(xpath = ".//*[contains(text(),'Welcome')]")
     public static WebElement getwelcomeMessage;
 
-    @FindBy(xpath = ".//div[@class='OSInline']")
+    @FindBy(xpath = ".//span[@class='OSInline']")
     public static WebElement navUsername;
 
-    @FindBy(xpath = ".//*[contains(text(),'Logout')]")
+    @FindBy(xpath = ".//*[contains(@id,'Logout')]")
     public static WebElement logout;
 
     //We will use this boolean for assertion. To check if page is opened.
@@ -54,8 +55,12 @@ public class LandingPage extends BaseClass {
     public void logout() throws Exception {
         Thread.sleep(1000);
         navUsername.click();
-        Thread.sleep(1000);
-        logout.click();
+        Thread.sleep(1500);
+        Actions a = new Actions(driver);
+        a.moveToElement(logout);
+        a.click();
+        a.build().perform();
+//        logout.click();
     }
 
 
