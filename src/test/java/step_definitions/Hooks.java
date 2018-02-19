@@ -31,7 +31,7 @@ public class Hooks {
     public void openBrowser() throws MalformedURLException {
         System.out.println("Before - opening new browser");
         System.out.println("Called openBrowser");
-        driver = BrowserFactory.getBrowser("Chrome");
+        driver = BrowserFactory.getBrowser("Firefox");
         driver.manage().deleteAllCookies();
     }
 
@@ -39,7 +39,7 @@ public class Hooks {
     /*
     * Embed a screenshot in test report if test is marked as failed
     */
-    public void embedScreenShot(Scenario scenario)throws IOException {
+    public void embedScreenShot(Scenario scenario) throws IOException {
         if (scenario.isFailed()) {
             try {
 //                scenario.write("Current Page URL is " + driver.getCurrentUrl());
@@ -50,7 +50,7 @@ public class Hooks {
             }
         }
 //        driver.close();
-//        driver.quit();
-            System.out.println("After Hook");
+        driver.quit();
+        System.out.println("After Hook");
     }
 }

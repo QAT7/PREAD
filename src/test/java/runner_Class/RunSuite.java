@@ -14,11 +14,13 @@ import java.io.File;
 @RunWith(Cucumber.class)
 @CucumberOptions(
         features = "classpath:features",
+        tags = {"@suite", "~@wip"},
         glue = {"step_definitions"},
         snippets = SnippetType.UNDERSCORE,
-//        monochrome = true,
-        plugin = {"pretty:STDOUT", "html:Reports/cucumber-pretty"},
-        tags = {"@suite", "~@wip"}
+        plugin = {"pretty:STDOUT", "html:Reports\\cucumber-pretty",
+                "json:Reports\\cucumber-json\\cucumber.json",
+                "com.cucumber.listener.ExtentCucumberFormatter:Reports\\cucumber-extent\\report.html"}
+
 
 )
 public class RunSuite {

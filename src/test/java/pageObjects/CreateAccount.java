@@ -92,6 +92,7 @@ public class CreateAccount extends BaseClass {
         a.clickAndHold();
         a.build().perform();
         messageByClass.getText();
+        System.out.println("This ***********************" + messageByClass.getText());
         String expectedMessageFromPage = messageByClass.getText();
 
         System.out.println("Web Original Message  --- "+expectedMessageFromPage);
@@ -100,7 +101,8 @@ public class CreateAccount extends BaseClass {
         Assert.assertEquals(expectedMessageFromPage,message);
     }
 
-    public void createAccountAlreadyExistsMessage(String message) {
+    public void createAccountAlreadyExistsMessage(String message) throws Exception {
+        Thread.sleep(1000);
         Actions a = new Actions(driver);
         a.moveToElement(messageByClass);
         a.clickAndHold();
