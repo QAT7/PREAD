@@ -21,7 +21,7 @@ import java.io.File;
         glue = {"step_definitions"},
         snippets = SnippetType.CAMELCASE,
         plugin = {"pretty:STDOUT", "html:Reports\\cucumber-pretty",
-                "json:Reports\\cucumber-json\\cucumber.json",
+                "json:Reports\\cucumber-json\\cucumber-json-report.json",
                 "com.cucumber.listener.ExtentCucumberFormatter:Reports\\cucumber-extent\\report.html"}
 
 

@@ -2,6 +2,7 @@ package runner_Class;
 
 import com.cucumber.listener.ExtentProperties;
 import com.cucumber.listener.Reporter;
+import com.github.mkolisnyk.cucumber.reporting.CucumberUsageReporting;
 import cucumber.api.CucumberOptions;
 import cucumber.api.SnippetType;
 import cucumber.api.junit.Cucumber;
@@ -18,7 +19,7 @@ import java.io.File;
         glue = {"step_definitions"},
         snippets = SnippetType.UNDERSCORE,
         plugin = {"pretty:STDOUT", "html:Reports\\cucumber-pretty",
-                "json:Reports\\cucumber-json\\cucumber.json",
+                "json:Reports\\cucumber-json\\cucumber-json-report.json",
                 "com.cucumber.listener.ExtentCucumberFormatter:Reports\\cucumber-extent\\report.html"}
 
 
@@ -34,7 +35,7 @@ public class RunSuite {
     }
 
     @AfterClass
-    public static void tearDown() {
+    public static void tearDown() throws Exception {
         Reporter.loadXMLConfig(new File("src\\test\\resources\\extent-config.xml"));
         Reporter.setSystemInfo("user", System.getProperty("user.name"));
         Reporter.setSystemInfo("os", "Windows 10");

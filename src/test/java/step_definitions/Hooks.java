@@ -5,6 +5,9 @@ import Library.Utility;
 import com.aventstack.extentreports.ExtentReports;
 import com.aventstack.extentreports.ExtentTest;
 import com.cucumber.listener.Reporter;
+import com.github.mkolisnyk.cucumber.reporting.CucumberResultsOverview;
+import com.github.mkolisnyk.cucumber.reporting.CucumberUsageReporting;
+import com.github.mkolisnyk.cucumber.reporting.types.usage.CucumberAggregatedDuration;
 import cucumber.api.Scenario;
 import cucumber.api.java.Before;
 import cucumber.api.java.After;
@@ -49,8 +52,11 @@ public class Hooks {
                 System.err.println(somePlantformDontSupportScreenShots.getMessage());
             }
         }
-//        driver.close();
+
+        driver.close();
         driver.quit();
         System.out.println("After Hook");
+
+
     }
 }

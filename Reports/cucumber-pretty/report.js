@@ -7,7 +7,7 @@ formatter.feature({
   "keyword": "Feature"
 });
 formatter.before({
-  "duration": 7972960838,
+  "duration": 5784375461,
   "status": "passed"
 });
 formatter.scenario({
@@ -53,28 +53,28 @@ formatter.match({
   "location": "LoginLogout_StepDef.iGoOutreachWebsite()"
 });
 formatter.result({
-  "duration": 1919748036,
+  "duration": 1200183941,
   "status": "passed"
 });
 formatter.match({
   "location": "CreateAccount_StepDef.iClickOnCreateAccountLink()"
 });
 formatter.result({
-  "duration": 849008711,
+  "duration": 213539290,
   "status": "passed"
 });
 formatter.match({
   "location": "CreateAccount_StepDef.iEnterAllRequiredField()"
 });
 formatter.result({
-  "duration": 870406390,
+  "duration": 1596317662,
   "status": "passed"
 });
 formatter.match({
   "location": "CreateAccount_StepDef.iClickOnCreateAccountButton()"
 });
 formatter.result({
-  "duration": 2252840043,
+  "duration": 2289296352,
   "status": "passed"
 });
 formatter.match({
@@ -87,11 +87,11 @@ formatter.match({
   "location": "CreateAccount_StepDef.iShouldGetMessage(String)"
 });
 formatter.result({
-  "duration": 1207362780,
+  "duration": 1180541014,
   "status": "passed"
 });
 formatter.after({
-  "duration": 1027971735,
+  "duration": 1092053703,
   "status": "passed"
 });
 formatter.uri("features/LoginLogout.feature");
@@ -103,7 +103,7 @@ formatter.feature({
   "keyword": "Feature"
 });
 formatter.before({
-  "duration": 3668185962,
+  "duration": 3602178574,
   "status": "passed"
 });
 formatter.scenario({
@@ -154,46 +154,46 @@ formatter.match({
   "location": "LoginLogout_StepDef.iGoOutreachWebsite()"
 });
 formatter.result({
-  "duration": 1093586995,
+  "duration": 1084686589,
   "status": "passed"
 });
 formatter.match({
   "location": "LoginLogout_StepDef.iEnterMyUsername()"
 });
 formatter.result({
-  "duration": 138369402,
+  "duration": 220300943,
   "status": "passed"
 });
 formatter.match({
   "location": "LoginLogout_StepDef.iEnterMyPassword()"
 });
 formatter.result({
-  "duration": 67688319,
+  "duration": 192208657,
   "status": "passed"
 });
 formatter.match({
   "location": "LoginLogout_StepDef.iClickOnSubmit()"
 });
 formatter.result({
-  "duration": 2251115768,
+  "duration": 2018882377,
   "status": "passed"
 });
 formatter.match({
   "location": "LoginLogout_StepDef.iShouldGetWelcomeMessage()"
 });
 formatter.result({
-  "duration": 58981607,
+  "duration": 64874350,
   "status": "passed"
 });
 formatter.match({
   "location": "LoginLogout_StepDef.iShouldBeAbleToLogout()"
 });
 formatter.result({
-  "duration": 2771247668,
+  "duration": 2827709232,
   "status": "passed"
 });
 formatter.after({
-  "duration": 1084517277,
+  "duration": 2503344255,
   "status": "passed"
 });
 });

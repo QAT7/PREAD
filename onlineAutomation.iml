@@ -82,6 +82,36 @@
     <orderEntry type="library" name="Maven: commons-digester:commons-digester:1.8" level="project" />
     <orderEntry type="library" name="Maven: commons-beanutils:commons-beanutils:1.7.0" level="project" />
     <orderEntry type="library" name="Maven: commons-beanutils:commons-beanutils-core:1.8.0" level="project" />
+    <orderEntry type="library" name="Maven: com.github.mkolisnyk:cucumber-reports:0.0.2" level="project" />
+    <orderEntry type="library" name="Maven: com.cedarsoftware:json-io:2.2.31" level="project" />
+    <orderEntry type="library" name="Maven: info.cukes:cucumber-picocontainer:1.2.2" level="project" />
+    <orderEntry type="library" name="Maven: org.picocontainer:picocontainer:2.15" level="project" />
+    <orderEntry type="library" name="Maven: org.apache.maven:maven-plugin-api:2.0" level="project" />
+    <orderEntry type="library" name="Maven: org.apache.maven.reporting:maven-reporting-api:2.0.8" level="project" />
+    <orderEntry type="library" name="Maven: org.apache.maven.doxia:doxia-sink-api:1.0-alpha-9" level="project" />
+    <orderEntry type="library" name="Maven: org.apache.maven.reporting:maven-reporting-impl:2.0.4.3" level="project" />
+    <orderEntry type="library" name="Maven: org.apache.maven:maven-project:2.0.4" level="project" />
+    <orderEntry type="library" name="Maven: org.apache.maven:maven-settings:2.0.4" level="project" />
+    <orderEntry type="library" name="Maven: org.apache.maven:maven-profile:2.0.4" level="project" />
+    <orderEntry type="library" name="Maven: org.apache.maven:maven-model:2.0.4" level="project" />
+    <orderEntry type="library" name="Maven: org.apache.maven:maven-artifact-manager:2.0.4" level="project" />
+    <orderEntry type="library" name="Maven: org.apache.maven:maven-repository-metadata:2.0.4" level="project" />
+    <orderEntry type="library" name="Maven: org.apache.maven.wagon:wagon-provider-api:1.0-alpha-6" level="project" />
+    <orderEntry type="library" name="Maven: org.apache.maven:maven-artifact:2.0.4" level="project" />
+    <orderEntry type="library" name="Maven: org.codehaus.plexus:plexus-container-default:1.0-alpha-9" level="project" />
+    <orderEntry type="library" name="Maven: classworlds:classworlds:1.1-alpha-2" level="project" />
+    <orderEntry type="library" name="Maven: org.apache.maven.doxia:doxia-core:1.0" level="project" />
+    <orderEntry type="library" name="Maven: org.apache.maven.doxia:doxia-site-renderer:1.0" level="project" />
+    <orderEntry type="library" name="Maven: org.codehaus.plexus:plexus-i18n:1.0-beta-7" level="project" />
+    <orderEntry type="library" name="Maven: org.codehaus.plexus:plexus-velocity:1.1.7" level="project" />
+    <orderEntry type="library" name="Maven: org.apache.maven.doxia:doxia-decoration-model:1.0" level="project" />
+    <orderEntry type="library" name="Maven: org.apache.maven.doxia:doxia-module-apt:1.0" level="project" />
+    <orderEntry type="library" name="Maven: org.apache.maven.doxia:doxia-module-fml:1.0" level="project" />
+    <orderEntry type="library" name="Maven: org.apache.maven.doxia:doxia-module-xdoc:1.0" level="project" />
+    <orderEntry type="library" name="Maven: org.apache.maven.doxia:doxia-module-xhtml:1.0" level="project" />
+    <orderEntry type="library" name="Maven: commons-validator:commons-validator:1.2.0" level="project" />
+    <orderEntry type="library" name="Maven: oro:oro:2.0.8" level="project" />
+    <orderEntry type="library" name="Maven: org.apache.maven.shared:maven-doxia-tools:1.0.2" level="project" />
     <orderEntry type="library" name="Maven: com.relevantcodes:extentreports:2.41.1" level="project" />
     <orderEntry type="library" name="Maven: org.xerial:sqlite-jdbc:3.8.11.1" level="project" />
     <orderEntry type="library" name="Maven: org.freemarker:freemarker:2.3.23" level="project" />

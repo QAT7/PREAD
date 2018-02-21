@@ -74,9 +74,14 @@
         <!-- https://mvnrepository.com/artifact/com.relevantcodes/extentreports -->
         <!--Extent Report-->
         <dependency>
-        <groupId>net.masterthought</groupId>
-        <artifactId>cucumber-reporting</artifactId>
+            <groupId>net.masterthought</groupId>
+            <artifactId>cucumber-reporting</artifactId>
             <version>3.14.0</version>
+        </dependency>
+        <dependency>
+            <groupId>com.github.mkolisnyk</groupId>
+            <artifactId>cucumber-reports</artifactId>
+            <version>0.0.2</version>
         </dependency>
         <dependency>
             <groupId>com.relevantcodes</groupId>
