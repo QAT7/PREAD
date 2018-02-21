@@ -16,4 +16,38 @@ Feature: As an applicant when I login with valid credentials. I should be able l
     [32mAnd [0m[32mI enter my password[0m              [90m# LoginLogout_StepDef.iEnterMyPassword()[0m
     [32mWhen [0m[32mI click on Submit[0m               [90m# LoginLogout_StepDef.iClickOnSubmit()[0m
     [32mThen [0m[32mI should get Welcome message[0m    [90m# LoginLogout_StepDef.iShouldGetWelcomeMessage()[0m
-    [32mAnd [0m[32mI should be able to logout[0m       [90m# LoginLogout_StepDef.iShouldBeAbleToLogout()[0m
+    [31mAnd [0m[31mI should be able to logout[0m       [90m# LoginLogout_StepDef.iShouldBeAbleToLogout()[0m
+      [31morg.openqa.selenium.NoSuchElementException: Unable to locate element: {"method":"xpath","selector":".//span[@class='OSInline']"}
+      Command duration or timeout: 20.08 seconds
+      For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+      Build info: version: '2.53.0', revision: '35ae25b1534ae328c771e0856c93e187490ca824', time: '2016-03-15 10:43:46'
+      System info: host: 'cc-syadav-lap', ip: '129.31.188.128', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_144'
+      Driver info: org.openqa.selenium.firefox.FirefoxDriver
+      Capabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=44.0, platform=WINDOWS, nativeEvents=false, acceptSslCerts=true, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+      Session ID: 963c9192-2580-4b64-b8dd-aeffd089055e
+      *** Element info: {Using=xpath, value=.//span[@class='OSInline']}
+      	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+      	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+      	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+      	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+      	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:206)
+      	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:158)
+      	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:678)
+      	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:363)
+      	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:500)
+      	at org.openqa.selenium.By$ByXPath.findElement(By.java:361)
+      	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:355)
+      	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+      	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+      	at com.sun.proxy.$Proxy17.click(Unknown Source)
+      	at pageObjects.LandingPage.logout(LandingPage.java:57)
+      	at step_definitions.LoginLogout_StepDef.iShouldBeAbleToLogout(LoginLogout_StepDef.java:48)
+      	at ✽.And I should be able to logout(features/LoginLogout.feature:11)
+      Caused by: org.openqa.selenium.NoSuchElementException: Unable to locate element: {"method":"xpath","selector":".//span[@class='OSInline']"}
+      For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+      Build info: version: '2.53.0', revision: '35ae25b1534ae328c771e0856c93e187490ca824', time: '2016-03-15 10:43:46'
+      System info: host: 'cc-syadav-lap', ip: '129.31.188.128', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_144'
+      Driver info: driver.version: unknown
+      	at <anonymous class>.FirefoxDriver.prototype.findElementInternal_(file:///C:/Users/syadav12/AppData/Local/Temp/anonymous2867623367913603955webdriver-profile/extensions/fxdriver@googlecode.com/components/driver-component.js:10770)
+      	at <anonymous class>.fxdriver.Timer.prototype.setTimeout/<.notify(file:///C:/Users/syadav12/AppData/Local/Temp/anonymous2867623367913603955webdriver-profile/extensions/fxdriver@googlecode.com/components/driver-component.js:625)
+      [0m
