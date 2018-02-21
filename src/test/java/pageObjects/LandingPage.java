@@ -56,10 +56,6 @@ public class LandingPage extends BaseClass {
         Thread.sleep(1000);
         navUsername.click();
         Thread.sleep(1500);
-//        Actions a = new Actions(driver);
-//        a.moveToElement(logout);
-//        a.click();
-//        a.build().perform();
         logout.click();
     }
 
