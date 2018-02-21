@@ -40,7 +40,7 @@ public class LandingPage extends BaseClass {
 
     //We will use this boolean for assertion. To check if Sign In Link is displayed.
     public void enterPassword() {
-        password.sendKeys("Test@123aa4");
+        password.sendKeys("Test@123");
     }
 
     public void clickSubmit() throws Exception {
