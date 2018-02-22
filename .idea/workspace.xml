@@ -15,8 +15,8 @@
       <file leaf-file-name="LandingPage.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/pageObjects/LandingPage.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="405">
-              <caret line="42" column="36" lean-forward="false" selection-start-line="42" selection-start-column="36" selection-end-line="42" selection-end-column="36" />
+            <state relative-caret-position="286">
+              <caret line="34" column="0" lean-forward="true" selection-start-line="34" selection-start-column="0" selection-end-line="34" selection-end-column="0" />
               <folding>
                 <element signature="e#1181#1182#0" expanded="true" />
                 <element signature="e#1236#1237#0" expanded="true" />
@@ -125,7 +125,7 @@
       </MavenImportingSettings>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds" extendedState="7">
     <option name="x" value="260" />
     <option name="y" value="20" />
     <option name="width" value="1400" />
@@ -484,9 +484,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="RunSuite - 2018.02.19 at 15h 44m 22s.xml">
-      <configuration name="RunSuite" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="RunSuite - 2018.02.19 at 15h 45m 09s.xml">
       <configuration name="RunSuite" configurationId="JUnit" />
     </history-entry>
@@ -514,9 +511,12 @@
     <history-entry file="RunSuite - 2018.02.21 at 15h 59m 37s.xml">
       <configuration name="RunSuite" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="RunSuite - 2018.02.21 at 16h 05m 26s.xml">
+      <configuration name="RunSuite" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="7" />
     <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -948,8 +948,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/pageObjects/LandingPage.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="405">
-          <caret line="42" column="36" lean-forward="false" selection-start-line="42" selection-start-column="36" selection-end-line="42" selection-end-column="36" />
+        <state relative-caret-position="286">
+          <caret line="34" column="0" lean-forward="true" selection-start-line="34" selection-start-column="0" selection-end-line="34" selection-end-column="0" />
           <folding>
             <element signature="e#1181#1182#0" expanded="true" />
             <element signature="e#1236#1237#0" expanded="true" />
