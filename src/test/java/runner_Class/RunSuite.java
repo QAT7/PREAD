@@ -19,10 +19,9 @@ import java.io.File;
         glue = {"step_definitions"},
         snippets = SnippetType.UNDERSCORE,
         plugin = {"pretty:STDOUT", "html:Reports\\cucumber-pretty",
+                "html:Reports\\html-report",
                 "json:Reports\\cucumber-json\\cucumber.json",
                 "com.cucumber.listener.ExtentCucumberFormatter:Reports\\cucumber-extent\\report.html"}
-
-
 )
 public class RunSuite {
 
